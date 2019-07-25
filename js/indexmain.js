@@ -6,6 +6,14 @@ require.config({
     }
 });
 require(['jquery'], function ($) {
+<<<<<<< HEAD
+=======
+    // 跳转商城页面
+    var shopping_link = document.querySelector(".shopping_link")
+    shopping_link.click = function(){
+        window.open("../samsungshop.html","_blank")
+    }
+>>>>>>> f0c015264d62545ebe26066e8e05409210619189
     //顶部按钮下方Div
     $('<div></div>').appendTo('.nav ul li a').css({
         'display': 'block', 'width': '0', 'height': '5px', 'background': '#162d9a', 'position': 'absolute',
@@ -63,6 +71,18 @@ require(['jquery'], function ($) {
     $(".eve_nav a:eq(2)").click(function () {
         $(".eve_swiper").animate({ 'left': -3796 }, 400)
     })
+<<<<<<< HEAD
+=======
+    //活动上拉
+    $('body').scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            $('#product').animate({ 'margin-bottom': 0 }, 500);
+        } else if ($(this).scrollTop() < 200){
+            $('#product').animate('margin-bottom','140px');
+        }
+        // console.log($('#product').css("margin-bottom"))
+    });
+>>>>>>> f0c015264d62545ebe26066e8e05409210619189
     //请求数据
     $.ajax({
         type: 'get',
@@ -71,12 +91,12 @@ require(['jquery'], function ($) {
         cache: false, //不使用缓存
         success: function (data) {
            //请求图片
-            console.log(data.bannerPic[0].imgurl)
+            // console.log(data.bannerPic[0].imgurl)
             $('#eve_banner').css({ 'background': 'url(' + data.bannerPic[0].imgurl + ')no-repeat center', 'background-size': 'cover' });
             $('#rec_banner').css({ 'background': 'url(' + data.bannerPic[1].imgurl + ')no-repeat center', 'background-size': 'cover' });
             $('#eve_pro_banner').css({ 'background': 'url(' + data.bannerPic[2].imgurl + ')no-repeat center', 'background-size': 'cover' });
             //请求活动板块文字
-            console.log(data.evetag[0].na)
+            // console.log(data.evetag[0].na)
         $('#eve .eve_event .eve_b_right ul li:eq(0) p').html("&nbsp;"+data.evetag[0].na);
             $('#eve .eve_event .eve_b_right ul li:eq(0) span').html(data.evetag[0].slogan);
         $('#eve .eve_event .eve_b_right ul li:eq(1) p').html("&nbsp;"+data.evetag[1].na);

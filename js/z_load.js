@@ -177,8 +177,6 @@ define(['jquery'],function($){
         $('.z_little_imglist1').css('top',-425*index);
         $(this).siblings().css('border-color', '#fff');
         $(this).css('border-color', '#1428a0');
-        console.log('img/z_'+num+'max'+index+'_'+falg+'.jpg');
-        
         $('.z_bigImg').attr('src','img/z_'+num+'max'+index+'_'+falg+'.jpg');
     });
 
