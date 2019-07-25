@@ -1,0 +1,932 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#wrap {
+  width: 1898px;
+  margin: 0 auto;
+  min-height: 110px;
+  overflow: hidden;
+}
+#wrap #header .top {
+  width: 100%;
+  background: #efefef;
+  height: 30px;
+  border-bottom: 1px solid #dadada;
+  position: relative;
+}
+#wrap #header .top p {
+  line-height: 30px;
+  height: 100%;
+  position: absolute;
+  right: 36px;
+  font-size: 17px;
+  color: #9d9b9b;
+}
+#wrap #header .nav {
+  height: 80px;
+  border-bottom: #9d9b9b 1px solid;
+  position: relative;
+}
+#wrap #header .nav:hover .nav_nav {
+  display: block;
+}
+#wrap #header .nav .nav_nav {
+  width: 1898px;
+  position: absolute;
+  height: 400px;
+  top: 80px;
+  background: #ffffff;
+  display: none;
+  z-index: 10;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-left: 80px;
+}
+#wrap #header .nav .nav_nav ul {
+  float: left;
+  width: 350px;
+  height: 100%;
+  margin-top: 43px;
+}
+#wrap #header .nav .nav_nav ul h2 {
+  font-size: 19px;
+  margin-bottom: 27px;
+}
+#wrap #header .nav .nav_nav ul h2:hover {
+  color: #162d9a !important;
+}
+#wrap #header .nav .nav_nav ul li {
+  margin-bottom: 22px;
+}
+#wrap #header .nav .nav_nav ul li a {
+  font-size: 14px;
+  color: #585858;
+}
+#wrap #header .nav .nav_nav ul li a:hover {
+  color: #162d9a !important;
+  text-decoration: underline;
+}
+#wrap #header .nav .nav_l {
+  margin-left: 80px;
+  overflow: hidden;
+  height: 100%;
+}
+#wrap #header .nav .nav_l li {
+  margin-right: 30px;
+  float: left;
+  height: 100%;
+}
+#wrap #header .nav .nav_l li a {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 80px;
+  position: relative;
+}
+#wrap #header .nav .nav_l li a:hover {
+  color: #162d9a;
+}
+#wrap #header .nav #logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -75px;
+  margin-top: -12px;
+}
+#wrap #header .nav #logo img {
+  height: 24px;
+  width: 150px;
+}
+#wrap #header .nav .nav_r {
+  margin-right: 80px;
+  overflow: hidden;
+  height: 100%;
+}
+#wrap #header .nav .nav_r li {
+  margin-left: 30px;
+  float: left;
+  height: 100%;
+}
+#wrap #header .nav .nav_r li a {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 80px;
+  position: relative;
+}
+#wrap #header .nav .nav_r li a:hover {
+  color: #162d9a;
+}
+#wrap #header .nav .nav_r #zoom {
+  font-size: 25px !important;
+}
+#wrap #content {
+  width: 1898px;
+  min-height: 695px;
+  position: relative;
+}
+#wrap #content #progress span {
+  background: #000000 !important;
+}
+#wrap #content #banner {
+  width: 1802px;
+  height: 695px;
+  margin: 0 auto 80px;
+  position: relative;
+}
+#wrap #content #banner .swiper-button-prev {
+  display: block;
+  position: absolute;
+  left: 16px;
+  bottom: 312px;
+  z-index: 8;
+}
+#wrap #content #banner .swiper-button-prev i {
+  font-size: 72px;
+}
+#wrap #content #banner .swiper-button-next {
+  display: block;
+  position: absolute;
+  right: 55px;
+  bottom: 312px;
+  z-index: 8;
+}
+#wrap #content #banner .swiper-button-next i {
+  font-size: 72px;
+}
+#wrap #content #banner ul {
+  width: 100%;
+  height: 100%;
+}
+#wrap #content #banner ul li {
+  position: relative;
+}
+#wrap #content #banner ul li .bt_l {
+  position: absolute;
+  top: 244px;
+  left: 180px;
+}
+#wrap #content #banner ul li .bt_l h2 {
+  font-size: 58px;
+  color: #000000;
+  margin-bottom: 41px;
+  font-family: SamsungSharpSans;
+}
+#wrap #content #banner ul li .bt_l p {
+  font-size: 22px;
+  color: #2f0000;
+}
+#wrap #content #banner ul li .more {
+  position: absolute;
+  left: 178px;
+  bottom: 248px;
+  font-size: 16px;
+  color: #555555;
+  text-decoration: underline;
+  font-weight: 800;
+}
+#wrap #content #banner ul li .p_now {
+  position: absolute;
+  width: 178px;
+  height: 50px;
+  left: 298px;
+  bottom: 232px;
+  border-radius: 20px;
+  border: 1px solid #6a6a6a;
+  text-align: center;
+  color: #555555;
+  line-height: 50px;
+  font-weight: 800;
+}
+#wrap #content #banner ul li .p_now:hover {
+  color: #efefef;
+  background: #787878;
+}
+#wrap #content #banner ul li .bt_r {
+  position: absolute;
+  right: 240px;
+  top: 246px;
+}
+#wrap #content #banner ul li .bt_r h2 {
+  font-size: 58px;
+  color: #000000;
+  margin-bottom: 41px;
+  font-family: SamsungSharpSans;
+}
+#wrap #content #banner ul li .bt_r p {
+  font-size: 22px;
+  color: #2f0000;
+}
+#wrap #content #banner ul li .r_more {
+  position: absolute;
+  right: 638px;
+  top: 429px;
+  font-size: 16px;
+  color: #555555;
+  text-decoration: underline;
+  font-weight: 800;
+}
+#wrap #content #banner ul li .r_p_now {
+  position: absolute;
+  width: 178px;
+  height: 50px;
+  right: 418px;
+  top: 412px;
+  border-radius: 20px;
+  border: 1px solid #6a6a6a;
+  text-align: center;
+  color: #555555;
+  line-height: 50px;
+  font-weight: 800;
+}
+#wrap #content #banner ul li .r_p_now:hover {
+  color: #efefef;
+  background: #787878;
+}
+#wrap #content #banner ul .item-1 {
+  display: block;
+  background: url(../img/indeximg/banner1.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#wrap #content #banner ul .item-2 {
+  display: block;
+  background: url(../img/indeximg/banner2.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#wrap #content #banner ul .item-3 {
+  display: block;
+  background: url(../img/indeximg/banner3.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#wrap #content #banner ul .item-4 {
+  display: block;
+  background: url(../img/indeximg/banner4.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#wrap #content #banner ul .item-5 {
+  display: block;
+  background: url(../img/indeximg/banner5.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#wrap #content #product {
+  width: 100%;
+  margin: 0 auto;
+  height: 448px;
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+#wrap #content #product h2 {
+  width: 100%;
+  height: 76px;
+  line-height: 76px;
+  font-size: 38px;
+  color: #000000;
+  text-align: center;
+}
+#wrap #content #product ul {
+  width: 100%;
+  height: 322px;
+  overflow: hidden;
+}
+#wrap #content #product ul li {
+  margin-left: 30px;
+  float: left;
+  width: 580px;
+  height: 322px;
+  overflow: hidden;
+  position: relative;
+}
+#wrap #content #product ul li:hover a {
+  transform: scale(1.2, 1.2);
+  transition: all 0.5s linear;
+}
+#wrap #content #product ul li:hover img {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.5s linear;
+}
+#wrap #content #product ul li img {
+  width: 107px;
+  height: 107px;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 221.5px;
+  z-index: 4;
+}
+#wrap #content #product ul li .pro_pic-1 {
+  background: url(../img/indeximg/product1.jpg) no-repeat center;
+  background-size: cover;
+}
+#wrap #content #product ul li .pro_pic-2 {
+  background: url(../img/indeximg/product2.jpg) no-repeat center;
+  background-size: cover;
+}
+#wrap #content #product ul li .pro_pic-3 {
+  background: url(../img/indeximg/product3.jpg) no-repeat center;
+  background-size: cover;
+}
+#wrap #content #product ul li a {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+#wrap #content #product ul li a :first-child {
+  width: 580px;
+  height: 322px;
+}
+
+#eve {
+  width: 1898px;
+  height: 1149px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+#eve .eve_nav {
+  width: 1898px;
+  height: 128px;
+  text-align: center;
+}
+#eve .eve_nav a {
+  color: #949494;
+  font-size: 38px;
+  line-height: 128px;
+  margin-right: 61px;
+  position: relative;
+  cursor: pointer !important;
+}
+#eve .eve_nav a:hover {
+  color: #000000;
+  cursor: pointer;
+}
+#eve .eve_nav a:visited {
+  color: #000000;
+  cursor: pointer;
+}
+#eve .eve_swiper {
+  width: 5694px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 1022px;
+  position: absolute;
+  left: 0;
+  top: 128px;
+}
+#eve .eve_swiper .eve_b {
+  width: 1898px;
+  height: 1022px;
+  overflow: hidden;
+  padding: 0 18px;
+  float: left;
+  box-sizing: border-box;
+}
+#eve .eve_swiper .eve_b .eve_b_left {
+  width: 885px;
+  height: 955px;
+  margin-left: 32px;
+  overflow: hidden;
+  position: relative;
+}
+#eve .eve_swiper .eve_b .eve_b_left:hover {
+  box-shadow: 0px -5px 22px #bfbfbf;
+  transition: all 1s linear;
+}
+#eve .eve_swiper .eve_b .eve_b_left:hover div p {
+  display: none;
+}
+#eve .eve_swiper .eve_b .eve_b_left:hover div a {
+  display: block;
+  transition: all 0.5s linear;
+  animation: goup 0.4s;
+}
+#eve .eve_swiper .eve_b .eve_b_left:hover div a:hover {
+  background: #fff;
+  color: #555555;
+  font-weight: 800;
+}
+#eve .eve_swiper .eve_b .eve_b_left #eve_banner {
+  width: 885px;
+  height: 955px;
+  background-size: cover;
+  display: block !important;
+  overflow: hidden !important;
+}
+#eve .eve_swiper .eve_b .eve_b_left #eve_banner:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s linear;
+}
+#eve .eve_swiper .eve_b .eve_b_left div {
+  width: 280px;
+  height: 140px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+#eve .eve_swiper .eve_b .eve_b_left div span {
+  width: 100%;
+  font-size: 34px;
+  color: #ffffff;
+  font-weight: 800;
+  text-align: center;
+}
+#eve .eve_swiper .eve_b .eve_b_left div p {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 14px;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+#eve .eve_swiper .eve_b .eve_b_left div a {
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 50px;
+  margin-top: 18px;
+  display: none;
+}
+#eve .eve_swiper .eve_b .eve_b_right {
+  width: 945px;
+  height: 100%;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul .evef-1 {
+  display: block;
+  background: url(../img/indeximg/eve1f.png) no-repeat center;
+  background-size: 321px 235px;
+  background-color: #f7f7f7;
+  background-position: 53px 60px;
+  width: 427.5px;
+  height: 462px;
+  margin-left: 30px;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul .evef-1:hover {
+  transition: all 0.4s linear;
+  background: url(../img/indeximg/eve1b.png) no-repeat center;
+  background-size: 321px 235px;
+  box-shadow: 0px 0px 12px #ccc;
+  background-color: #ffffff;
+  background-position: 53px 60px;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul .evef-2 {
+  display: block;
+  background: url(../img/indeximg/eve2f.png) no-repeat center;
+  background-size: 321px 235px;
+  background-color: #f7f7f7;
+  background-position: 53px 60px;
+  width: 427.5px;
+  height: 462px;
+  margin-left: 30px;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul .evef-2:hover {
+  transition: all 0.4s linear;
+  background: url(../img/indeximg/eve2b.png) no-repeat center;
+  background-size: 321px 235px;
+  box-shadow: 0px 0px 12px #ccc;
+  background-color: #ffffff;
+  background-position: 53px 60px;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul .evef-3 {
+  display: block;
+  background: url(../img/indeximg/eve3f.png) no-repeat center;
+  background-size: 321px 235px;
+  background-color: #f7f7f7;
+  background-position: 53px 60px;
+  width: 427.5px;
+  height: 462px;
+  margin-left: 30px;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul .evef-3:hover {
+  transition: all 0.4s linear;
+  background: url(../img/indeximg/eve3b.png) no-repeat center;
+  background-size: 321px 235px;
+  box-shadow: 0px 0px 12px #ccc;
+  background-color: #ffffff;
+  background-position: 53px 60px;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul .evef-4 {
+  display: block;
+  background: url(../img/indeximg/eve4f.png) no-repeat center;
+  background-size: 321px 235px;
+  background-color: #f7f7f7;
+  background-position: 53px 60px;
+  width: 427.5px;
+  height: 462px;
+  margin-left: 30px;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul .evef-4:hover {
+  transition: all 0.4s linear;
+  background: url(../img/indeximg/eve4b.png) no-repeat center;
+  background-size: 321px 235px;
+  box-shadow: 0px 0px 12px #ccc;
+  background-color: #ffffff;
+  background-position: 53px 60px;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul li {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul li:hover span {
+  display: none !important;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul li:hover a {
+  display: block !important;
+  animation: goup 0.4s;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul li p {
+  font-size: 17px;
+  color: #000000;
+  margin: 339px 0 19px;
+  width: 100%;
+  text-align: center;
+  font-weight: 800;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul li span {
+  width: 100%;
+  font-size: 17px;
+  color: #000000;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul li a {
+  display: block;
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid #555555;
+  border-radius: 25px;
+  text-align: center;
+  color: #555555;
+  line-height: 50px;
+  margin-top: 18px;
+  display: none;
+  z-index: 10;
+}
+#eve .eve_swiper .eve_b .eve_b_right ul li a:hover {
+  background-color: #555555;
+  color: #fff;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_left {
+  width: 885px;
+  height: 955px;
+  margin-left: 32px;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_left #rec_banner {
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+  display: block;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_left #rec_banner:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s linear;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_left div span {
+  color: #000000 !important;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_left div p {
+  color: #000000 !important;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_left div a {
+  color: #797979;
+  border-color: #797979;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_left div a:hover {
+  background-color: #555555 !important;
+  color: #fff !important;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_right .evef-1 {
+  background: url(../img/indeximg/rec1.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #f7f7f7 !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_right .evef-1:hover {
+  transition: all 0.1s linear;
+  background: url(../img/indeximg/recPro1.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #ffffff !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_right .evef-2 {
+  background: url(../img/indeximg/rec2.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #f7f7f7 !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_right .evef-2:hover {
+  transition: all 0.1s linear;
+  background: url(../img/indeximg/recPro2.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #ffffff !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_right .evef-3 {
+  background: url(../img/indeximg/rec3.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #f7f7f7 !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_right .evef-3:hover {
+  transition: all 0.1s linear;
+  background: url(../img/indeximg/recPro3.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #ffffff !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_right .evef-4 {
+  background: url(../img/indeximg/rec4.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #f7f7f7 !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_rec .eve_b_right .evef-4:hover {
+  transition: all 0.1s linear;
+  background: url(../img/indeximg/recPro4.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #ffffff !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_pro .eve_b_left #eve_pro_banner {
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+  display: block;
+}
+#eve .eve_swiper .eve_b_pro .eve_b_left #eve_pro_banner:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s linear;
+}
+#eve .eve_swiper .eve_b_pro .eve_b_right .evef-1 {
+  background: url(../img/indeximg/wsold1.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #f7f7f7 !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_pro .eve_b_right .evef-1:hover {
+  transition: all 0.1s linear;
+  background: url(../img/indeximg/wsoldPro1.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #ffffff !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_pro .eve_b_right .evef-2 {
+  background: url(../img/indeximg/wsold2.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #f7f7f7 !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_pro .eve_b_right .evef-2:hover {
+  transition: all 0.1s linear;
+  background: url(../img/indeximg/wsoldPro2.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #ffffff !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_pro .eve_b_right .evef-3 {
+  background: url(../img/indeximg/wsold3.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #f7f7f7 !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_pro .eve_b_right .evef-3:hover {
+  transition: all 0.1s linear;
+  background: url(../img/indeximg/wsoldPro3.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #ffffff !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_pro .eve_b_right .evef-4 {
+  background: url(../img/indeximg/wsold4.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #f7f7f7 !important;
+  background-position: 53px 60px !important;
+}
+#eve .eve_swiper .eve_b_pro .eve_b_right .evef-4:hover {
+  transition: all 0.1s linear;
+  background: url(../img/indeximg/wsoldPro4.png) no-repeat center !important;
+  background-size: 321px 235px !important;
+  background-color: #ffffff !important;
+  background-position: 53px 60px !important;
+}
+
+#search {
+  width: 100%;
+  height: 260px;
+  text-align: center;
+  border-bottom: 1px solid #d0d0d0;
+}
+#search h2 {
+  height: 105px;
+  line-height: 105px;
+  font-size: 31px;
+  font-weight: 800;
+}
+#search .input {
+  overflow: hidden;
+  width: 1064px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000;
+}
+#search .input .ipt {
+  width: 984px;
+  height: 57px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  padding-left: 37px;
+  line-height: 53px;
+  color: #6d6363;
+  font-size: 18px;
+}
+#search .input .sub {
+  width: 47px;
+  height: 37px;
+  border: 0;
+  margin-top: 16px;
+}
+#search .input .sub i {
+  font-size: 33px;
+}
+
+#explain {
+  height: 112px;
+  width: 100%;
+  border-bottom: 1px solid #d0d0d0;
+  padding: 30px 0;
+  background: #f7f7f7;
+  box-sizing: border-box;
+}
+#explain p {
+  height: 100%;
+  margin-left: 200px;
+  color: #363636;
+  font-size: 15px;
+  display: inline-block;
+}
+
+#copyright {
+  width: 100%;
+  height: 452px;
+  background: #f5f5f5;
+  box-sizing: border-box;
+  padding: 87px 0 0 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+#copyright .backtotop {
+  position: absolute;
+  top: 32px;
+  right: 79px;
+  width: 120px;
+  overflow: hidden;
+}
+#copyright .backtotop a {
+  font-size: 13px;
+  margin-right: 14px;
+  float: left;
+}
+#copyright .backtotop:nth-child(2) .bctop {
+  font-size: 11px !important;
+  float: right;
+}
+#copyright .cp_top {
+  height: 251px;
+  width: 100%;
+  overflow: hidden;
+}
+#copyright .cp_top ul {
+  float: left;
+}
+#copyright .cp_top ul h3 {
+  font-size: 17px;
+  color: #212428;
+  margin-bottom: 28px;
+}
+#copyright .cp_top ul li {
+  width: 348px;
+  font-size: 17px;
+}
+#copyright .cp_top ul li a {
+  font-size: 14px;
+  color: #212428;
+  margin-bottom: 16px;
+}
+#copyright .cp_top ul li a:hover {
+  text-decoration: underline !important;
+}
+#copyright .cp_bottom {
+  height: 110px;
+}
+#copyright .cp_bottom p {
+  font-size: 14px;
+}
+
+#footer {
+  background: #525252;
+  height: 75px;
+  line-height: 75px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 80px;
+  position: relative;
+}
+#footer a {
+  font-weight: 800;
+  font-size: 15px;
+  margin-right: 32px;
+  color: #ffffff;
+}
+#footer .share {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #525252;
+  width: 253px;
+  height: 75px;
+  overflow: hidden;
+}
+#footer .share p {
+  float: left;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 800;
+  height: 75px;
+  line-height: 75px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+#footer .share a {
+  float: left;
+  margin-right: 0 !important;
+}
+#footer .share a #wechat {
+  font-size: 43px;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 13px;
+  float: left;
+}
+#footer .share a #weibo {
+  font-size: 43px;
+  color: #ffffff;
+  float: left;
+}
+#footer .z_btn {
+  width: 72px;
+  height: 72px;
+  text-align: center;
+  background-color: rgba(115, 115, 115, 0.8);
+  position: fixed;
+  right: 60px;
+  bottom: 30px;
+  display: none;
+  cursor: pointer;
+}
+#footer .z_btn i {
+  font-size: 44px;
+  color: #fafafa;
+}
+
+@-webkit-keyframes goup {
+  from {
+    margin-top: 40px;
+  }
+  to {
+    margin-top: 18px;
+  }
+}
+@-webkit-keyframes eveup {
+  from {
+    margin-top: 160px;
+    opacity: 0.5;
+    padding-top: 60px;
+  }
+  to {
+    margin-top: 0px;
+    opacity: 1;
+    padding-top: 60px;
+  }
+}

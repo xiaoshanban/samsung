@@ -1,0 +1,27 @@
+{
+	"bannerPic":[
+		{"imgurl":"../img/indeximg/eventBanner.jpg","eve_a_1":"最近活动"},
+		{"imgurl":"../img/indeximg/recBanner.jpg","eve_a_2":"推荐"},
+		{"imgurl":"../img/indeximg/wellsoldBanner.jpg","eve_a_3":"热销产品","na":"Galaxy Note9","slogan":"格调 笔笔皆是"}
+		
+
+	],
+	"evetag":[
+		{"na":"Galaxy A80","slogan":"加入5G俱乐部 轻松换购5G手机"},
+		{"na":"Galaxy A60","slogan":"24期免息"},
+		{"na":"Galaxy S10系列 1000元换新补贴","slogan":"24期免息"},
+		{"na":"Galaxy A60","slogan":"加入5G俱乐部 轻松换购5G手机"}
+	],
+	"rectag":[
+		{"na":"三星QLED 8K电视","slogan":"置身所见，浸在真实"},
+		{"na":"Galaxy Watch Active","slogan":""},
+		{"na":"Galaxy Note9","slogan":"格调 笔笔皆是"},
+		{"na":"三星智慕•多维双驱洗衣机","slogan":"WW90M74GNOR"}
+	],
+	"protag":[
+		{"na":"三星QLED光质量子点电视","slogan":"Q6F"},
+		{"na":"叠式双开门冰箱 蝶门·美食窗系列 ","slogan":"RH62N6070B1"},
+		{"na":"Galaxy A9s","slogan":"优惠1200元 享3期免息"},
+		{"na":"Galaxy S9｜S9+","slogan":"优惠1500元 享6期免息"}
+	]
+}
