@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		@charset "utf-8";
+		/* CSS Document */
+
+		/*CSS reset*/
+
+		body,
+		ol,
+		ul,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p,
+		th,
+		td,
+		dl,
+		dd,
+		form,
+		fieldset,
+		legend,
+		input,
+		textarea,
+		select,
+		img {
+			margin: 0;
+			padding: 0;
+		}
+
+		i {
+			font-style: normal;
+		}
+
+		body {
+			font: 12px "宋体", "Arial Narrow", HELVETICA;
+			color: #7b7b7b;
+		}
+
+		a {
+			color: #a4a4a4;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #cd0200;
+			text-decoration: none;
+		}
+
+		textarea,
+		input,
+		button {
+			outline: none;
+			border: 0;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		b,
+		strong {
+			margin: 0;
+			padding: 0;
+			font-size: 26px;
+			font-weight: 800;
+		}
+
+		em {
+			font-style: normal;
+		}
+
+		ul,
+		ol,
+		li {
+			list-style: none;
+		}
+
+		img {
+			border: 0;
+			vertical-align: middle;
+		}
+
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		/*p{
+	word-wrap:break-word;
+}*/
+	</style>
+	<style>
+		#register {
+			width: 530px;
+			height: 540px;
+			margin: 20px auto;
+		}
+
+		.phone {
+			height: 130px;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.phone p:nth-child(1) {
+			height: 48px;
+			background: #f0f0f0;
+			font-size: 18px;
+			color: #191919;
+			padding-left: 16px;
+			line-height: 48px;
+		}
+
+		.phone p:nth-child(2) {
+			padding-left: 16px;
+			height: 48px;
+			line-height: 48px;
+			font-size: 14px;
+			color: #525252;
+			position: relative;
+		}
+
+		.phone p:nth-child(2) span:last-child {
+			position: absolute;
+			right: 20px;
+		}
+
+		.phone input {
+			width: 498px;
+			height: 33px;
+			margin-left: 16px;
+			border-bottom: 1px solid #e6e6e6;
+			color: #000;
+		}
+
+		#password {
+			display: flex;
+			flex-direction: column;
+			margin-top: 50px;
+		}
+
+		#password input {
+			width: 498px;
+			height: 33px;
+			margin-left: 16px;
+			border-bottom: 1px solid #e6e6e6;
+			color: #000;
+		}
+
+		#password p {
+			color: #cccccc;
+			font-size: 12px;
+			padding-left: 16px;
+			line-height: 48px;
+		}
+
+		.line {
+			margin-top: 6px;
+			height: 8px;
+			background: #f2f2f2;
+		}
+
+		.button {
+			height: 150px;
+			display: flex;
+		}
+
+		#btn {
+			margin-left: 140px;
+			align-items: center;
+			margin-top: 70px;
+			display: block;
+			width: 249px;
+			height: 34px;
+			box-sizing: border-box;
+			border: 1px solid #ccc;
+			border-radius: 2px;
+			background-image: none;
+			background: rgba(255, 255, 255, 0.3);
+		}
+
+		h1 {
+			font-weight: bolder;
+		}
+
+		.s_iam-footer-row {
+			height: 48px;
+			background: #ebebeb;
+			margin-top: 150px;
+			overflow: hidden;
+
+		}
+
+		.s_iam-footer-inner {
+			width: 700px;
+			height: 48px;
+			margin: 0 auto;
+			background: #ebebeb;
+			overflow: hidden;
+
+		}
+
+		.s_iam-footer-links {
+			width: 224px;
+			height: 48px;
+		}
+
+		.s_iam-footer-links a {
+			line-height: 48px;
+		}
+		.s_addres{
+			width:182px;
+			height:48px;
+			float: right;
+		}
+	</style>
+
+</head>
+
+<body>
+	<form>
+		<div id="register">
+			<h1 style="color:#000">三星帐户</h1>
+			<br>
+			<br>
+			<div class="phone">
+				<p>手机号注册</p>
+				<p>
+					<span>国家/地区</span>
+					<span>中国&nbsp;+86</span>
+				</p>
+				<input type="text" name="phoneNum" id="phoneNum" value="" placeholder="手机号" />
+			</div>
+			<div id="password">
+				<input type="password" name="pwd" id="pwd" value="" placeholder="密码" />
+				<input type="password" name="" id="pwdConfirm" value="" placeholder="确认密码" />
+				<p>至少 8 个字符，不能含有空格。字母、数字、符号至少包含2种。</p>
+			</div>
+			<div class="line"></div>
+			<div class="button">
+				<input type="button" name="" id="btn" value="完成" />
+			</div>
+		</div>
+
+		<div class="s_iam-footer-row">
+			<div class="s_iam-footer-inner">
+				<div class="s_iam-footer-links">
+					<a>条款和条件</a>
+					<a>三星隐私权政策</a>
+					<a>联系我们</a>
+
+				</div>
+
+				<div class="s_addres">© Samsung Electronics Co., Ltd.</div>
+			
+			</div>
+		</div>
+	</form>
+	<script src="js/jquery-1.8.3.js"></script>
+	<script>
+		$("#btn").click(function () {
+			console.log($("#phoneNum").val(), $("#pwd").val());
+			var reg_phone = $("#phoneNum").val();
+			var reg_pwd = $("#pwd").val();
+			if (reg_pwd != $("#pwdConfirm").val()) {
+				alert("密码不一致，请重新输入");
+			} else {
+				$.ajax({
+					type: "get",
+					url: "data/zhuce.php",
+					data: {
+						phoneNum: $("#phoneNum").val(),
+						pwd: $("#pwd").val()
+					},
+					success: function (res) {
+						if (res == "0") {
+							alert("注册失败")
+						} else if (res == "2") {
+							alert("手机号已被注册")
+						} else {
+							alert("注册成功");
+							localStorage.setItem("reg_phone", reg_phone);
+							localStorage.setItem("reg_pwd", reg_pwd);
+							if (reg_pwd != $("#pwdConfirm").val()) {
+								alert("密码不一致，请重新输入");
+							}
+							location.href = "register.html";
+						}
+					}
+				});
+			}
+
+		});
+	</script>
+</body>
+
+</html>

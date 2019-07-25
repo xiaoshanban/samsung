@@ -1,0 +1,131 @@
+body {
+  background: #D4CFCF;
+  /* s_wrapper go*/
+  /* s_wrapper End*/
+  /* s_iam-main-inner go*/ }
+  body .s_wrapper {
+    background: #D4CFCF;
+    position: relative; }
+  body .s_iam-main-inner {
+    width: 600px;
+    height: 1186px;
+    margin: 0 452.8px;
+    padding: 60px;
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    /* s_iam-main-inner End*/ }
+    body .s_iam-main-inner #s_iam_con {
+      font-size: 24px;
+      position: absolute;
+      top: 20px;
+      left: 556px;
+      cursor: pointer; }
+    body .s_iam-main-inner h2 {
+      color: #1428a0;
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 40px; }
+    body .s_iam-main-inner form {
+      box-sizing: border-box;
+      margin-top: 50px; }
+      body .s_iam-main-inner form .s_text1 {
+        color: #767676;
+        font-size: 20px; }
+      body .s_iam-main-inner form .tel {
+        display: block;
+        width: 480px;
+        border: none;
+        border-bottom: 1px solid #DDD;
+        background-color: transparent; }
+      body .s_iam-main-inner form .s_text2 {
+        color: #767676;
+        font-size: 20px; }
+      body .s_iam-main-inner form .pass {
+        width: 480px;
+        border: none;
+        border-bottom: 1px solid #DDD;
+        background-color: transparent;
+        box-sizing: border-box; }
+      body .s_iam-main-inner form .s_text3 {
+        color: #767676; }
+      body .s_iam-main-inner form .yanzhengma {
+        width: 480px;
+        border: none;
+        border-bottom: 1px solid #DDD;
+        background-color: transparent;
+        box-sizing: border-box; }
+      body .s_iam-main-inner form .s_pid {
+        width: 480px;
+        height: 26px;
+        position: relative;
+        margin-top: 26px; }
+        body .s_iam-main-inner form .s_pid .but1 {
+          width: 22px;
+          height: 22px;
+          background: #DDD;
+          border: 2px solid #BDC3C9; }
+        body .s_iam-main-inner form .s_pid #s_icon {
+          color: white;
+          position: absolute;
+          left: 3px;
+          top: 2px;
+          display: none; }
+        body .s_iam-main-inner form .s_pid .s_em {
+          width: 480px;
+          height: 26px;
+          line-height: 26px; }
+      body .s_iam-main-inner form .s_challenge_img {
+        width: 487px;
+        height: 52px;
+        line-height: 52px;
+        margin-top: 52px;
+        position: relative; }
+        body .s_iam-main-inner form .s_challenge_img .s_capimg1 {
+          width: 276px;
+          height: 52px; }
+        body .s_iam-main-inner form .s_challenge_img .s_capimg2 {
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+          position: absolute;
+          left: 285px;
+          top: 15px;
+          z-index: 1; }
+      body .s_iam-main-inner form .s_layout {
+        width: 480px;
+        height: 288px;
+        cursor: pointer; }
+      body .s_iam-main-inner form .s_button {
+        width: 100%;
+        margin: 60px 15px;
+        text-align: center; }
+        body .s_iam-main-inner form .s_button .s_btn {
+          width: 270px;
+          height: 50px;
+          border: 2px solid black;
+          border-radius: 7px;
+          background: transparent;
+          font-weight: bold;
+          font-size: 16px; }
+      body .s_iam-main-inner form .s_zzp {
+        text-align: center; }
+        body .s_iam-main-inner form .s_zzp #s_shena {
+          color: #1428A0;
+          text-decoration: underline; }
+        body .s_iam-main-inner form .s_zzp #s_shena1 {
+          color: #1428A0;
+          text-decoration: underline; }
+      body .s_iam-main-inner form .s_sign {
+        width: 100%;
+        margin: 60px 15px;
+        text-align: center; }
+        body .s_iam-main-inner form .s_sign .s_iam_button {
+          width: 270px;
+          height: 50px;
+          border: 1px solid #C9C9C9;
+          border-radius: 7px;
+          background: transparent;
+          font-weight: bold;
+          font-size: 16px; }

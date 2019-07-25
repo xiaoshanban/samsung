@@ -1,0 +1,138 @@
+.s_wrap {
+  /*header go*/
+  /*header End*/
+  /*s_container go*/
+  /*s_container End*/
+  /* s_footer footer-text go*/
+  /* s_footer footer-text End*/ }
+  .s_wrap .s_header {
+    width: 100%;
+    height: 65px;
+    background-color: #fff;
+    border-bottom: 1px solid #EEEEEE; }
+    .s_wrap .s_header .s_header_center {
+      width: 1280px;
+      height: 64px;
+      margin: 0 auto;
+      background-color: #fff;
+      background: url(img/login/s_login.png) no-repeat; }
+      .s_wrap .s_header .s_header_center .s_a {
+        cursor: pointer; }
+        .s_wrap .s_header .s_header_center .s_a .s_logo {
+          width: 130px;
+          height: 22px;
+          padding-top: 22px; }
+      .s_wrap .s_header .s_header_center .s_message {
+        float: right;
+        display: inline-block; }
+        .s_wrap .s_header .s_header_center .s_message .s_tel {
+          display: inline-block;
+          margin-top: 22px; }
+        .s_wrap .s_header .s_header_center .s_message .s_mesage {
+          display: inline-block;
+          margin-top: 22px; }
+        .s_wrap .s_header .s_header_center .s_message .s_a2 i {
+          font-size: 20px; }
+  .s_wrap .s_container .s_container_cen {
+    width: 1519px;
+    min-height: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative; }
+    .s_wrap .s_container .s_container_cen .s_container_cen_img {
+      margin-top: 66px; }
+    .s_wrap .s_container .s_container_cen .s_title_left_logo .s_title_left_logo_img {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 27px;
+      left: 113px;
+      z-index: 1; }
+    .s_wrap .s_container .s_container_cen .s_title_left {
+      font-size: 60px;
+      position: absolute;
+      left: 345px;
+      top: 313px;
+      z-index: 1;
+      color: #fff; }
+    .s_wrap .s_container .s_container_cen .s_title-left-discount {
+      font-size: 20px;
+      position: absolute;
+      left: 345px;
+      top: 400px;
+      z-index: 1;
+      color: #fff; }
+    .s_wrap .s_container .s_container_cen .mode-right-box {
+      width: 410px;
+      height: 524px;
+      background-color: #fff;
+      position: absolute;
+      top: 95px;
+      left: 1000px;
+      font-size: 20px;
+      font-weight: 900;
+      text-align: center; }
+      .s_wrap .s_container .s_container_cen .mode-right-box h2 {
+        text-align: center;
+        padding: 80px 0 40px 0; }
+      .s_wrap .s_container .s_container_cen .mode-right-box .s_mode-right-choose {
+        overflow: hidden;
+        display: inline-block;
+        display: flex; }
+        .s_wrap .s_container .s_container_cen .mode-right-box .s_mode-right-choose li {
+          padding: 0px 15px; }
+      .s_wrap .s_container .s_container_cen .mode-right-box .s_mode-right-no-account {
+        font-size: 20px;
+        color: #444;
+        padding: 68px 0 30px 0;
+        line-height: 20px;
+        margin: 0 0 10px;
+        font-weight: normal; }
+        .s_wrap .s_container .s_container_cen .mode-right-box .s_mode-right-no-account span {
+          display: inline-block;
+          vertical-align: middle;
+          width: 88px;
+          height: 1px;
+          background: #dfdfdf;
+          margin: 0 20px 0 20px; }
+      .s_wrap .s_container .s_container_cen .mode-right-box .s_register-button {
+        display: inline-block;
+        width: 194px;
+        height: 56px;
+        text-align: center;
+        background: #1429a0;
+        border-radius: 30px;
+        line-height: 56px;
+        font-size: 14px;
+        cursor: pointer; }
+        .s_wrap .s_container .s_container_cen .mode-right-box .s_register-button .s_zhuc {
+          text-align: center;
+          color: #fff;
+          margin: 20px 0 0; }
+      .s_wrap .s_container .s_container_cen .mode-right-box .s_mode-right-help {
+        color: #1429a0;
+        cursor: pointer;
+        text-decoration: underline;
+        font-size: 15px;
+        padding-top: 20px;
+        font-weight: normal;
+        text-align: center;
+        display: block; }
+      .s_wrap .s_container .s_container_cen .mode-right-box .s_bind-tip {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 18px;
+        line-height: 20px;
+        color: #000;
+        margin: 18px 0 0;
+        font-weight: normal; }
+  .s_wrap .s_footer .s_footer_cen {
+    width: 1280px;
+    border-top: 1px solid #e5e5e5;
+    margin: 52px auto 0; }
+    .s_wrap .s_footer .s_footer_cen .s_footer-text {
+      text-align: center;
+      color: #666;
+      font-size: 12px;
+      line-height: 20px;
+      margin-top: 20px; }

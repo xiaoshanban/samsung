@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/shopping cat.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+	</head>
+	<body>
+		<!--网站导航-->
+		
+		<div id = "mycart_wrapper">
+			<div class ="mycart content">
+				<br>
+			<h1 style="color:#CA141D">我的购物车</h1>
+				<div class="cart_title">
+					<label class ="checkall">
+						<input type="checkbox" name="" id="checkall" value="" />
+						全选
+					</label>
+					<ul class ="cart_title_list">
+						<li>商品</li>
+						<li>单价</li>
+						<li>数量</li>
+						<li>小计</li>
+						<li>操作</li>
+					</ul>
+				</div>
+				<div class ="mate_selected_all">
+					<!--<div class="mate_selected">
+						<label class ="p_checkone">
+							<input type="checkbox" name="" id="checkone" value="" />
+							<a href ="mate20_details.html" class ="p-img">
+								<img src ="images/mate2.png" class ="cartShowImg"/>
+							</a>
+						</label>
+						<ul >
+							<li><span>HUAWEI Mate 20 6GB+64GB 全网通版（亮黑色）</span></li>
+							<li><span class="goodPrice">￥ 3999.00</span></li>
+							<li>
+								<div class="p-stock">
+									<div class="p-stock-area">
+										<input type="text"  class ="p-stock-text"/>
+										<p class="p-stock-btn">
+											<input type="button" value="+"></input>
+											<input type="button" value="-"></input>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li><span class="goodTotalPrice">￥ 3999.00</span></li>
+							<li>
+								<a href="#" class ="p_del">删除</a>
+							</li>
+						</ul>
+					</div>-->
+				</div>
+				<div class="p-total">
+					<div>
+						<input type="checkbox" name="" id="del_cart_sel" value="" />
+						<a>取消选择
+						
+						</a>
+						<span class="del_selected">删除</span>
+					</div>
+					<div class="all_total">
+						<span>
+							已选择
+							<span id="num_total">0	
+							</span> 件商品
+						</span>
+						<span>总计：</span>
+						<span id="price_total">0
+							
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fixed_menu">
+			<!--<div class="menu_list">-->
+				<a id ="cart_href">
+					<span class="iconfont icon-xiazai49"></span>
+					<span id="num">0</span>
+					<i class="cart">购物车</i>
+				</a>
+				<a href="#">
+					<span class="iconfont icon-wodekefu"></span>
+					<i class ="service">在线客服</i>
+				</a>
+				<a href="#">
+					<span class="iconfont icon-yijianfankui"></span>
+					<i  class="advice">意见反馈</i>
+				</a>
+				<a href="#">
+					<span class="iconfont icon-fanhuidingbu"></span>
+					<i class ="goTop">返回顶部</i>
+				</a>
+			<!--</div>-->	
+		</div>
+		
+	</div>
+	<script src ="js/jquery.min.js"></script>
+	<script src ="js/cart.js"></script>
+	<script>
+		$(function(){
+			var phoneNum = location.href.split("=")[1];
+			//console.log(phoneNum);
+			var cartJson = JSON.parse(localStorage.getItem(phoneNum+"goods"));
+			//console.log(cartJson);
+			var cartNum = 0;
+			for (var i = 0; i < cartJson.length; i++) {
+				cartNum += cartJson[i].num;
+			}
+			//console.log(cartNum);
+			$("#num").html(cartNum);
+		})
+	</script>
+	</body>
+</html>

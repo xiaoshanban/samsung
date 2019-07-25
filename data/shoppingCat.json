@@ -1,0 +1,63 @@
+
+[
+	{
+		"bid":"01",
+		"phoneName": "Galaxy A6s",
+		"src":"img/shoppingCat/s_img.jpg",
+		"price":"3999"
+	},
+	{
+		"bid":"02",
+		"phoneName": "Galaxy A6s",
+		"src":"img/shoppingCat/s_img.jpg",
+		"price":"2999"
+	},
+	{
+		"bid":"03",
+		"phoneName": "Galaxy A6s",
+		"src":"img/shoppingCat/s_img.jpg",
+		"price":"4999"
+	},
+	{
+		"bid":"04",
+		"phoneName": "Galaxy A6s",
+		"src":"img/shoppingCat/s_img.jpg",
+		"price":"5999"
+	},
+	{
+		"bid":"05",
+		"phoneName": "Galaxy A6s",
+		"src":"img/shoppingCat/s_img.jpg",
+		"price":"5599"
+	},
+	{
+		"bid":"06",
+		"phoneName": "Galaxy A6s",
+		"src":"img/shoppingCat/s_img.jpg",
+		"price":"6699"
+	},
+	{
+		"bid":"07",
+		"phoneName": "Galaxy A40s",
+		"src":"img/shoppingCat/s_img.jpg",
+		"price":"3499"
+	},
+		{
+		"bid":"08",
+		"phoneName": "Galaxy A40s",
+		"src":"img/shoppingCat/s_Galaxy.jpg",
+		"price":"4599"
+	},
+	{
+		"bid":"09",
+		"phoneName": "Galaxy A40s",
+		"src":"img/shoppingCat/s_Galaxy A40s.jpg",
+		"price":"3699"
+	},
+	{
+		"bid":"10",
+		"phoneName": "Galaxy S10",
+		"src":"img/shoppingCat/s_Galaxy.jpg",
+		"price":"5499"
+	}
+]

@@ -1,0 +1,47 @@
+{
+	"hot_product":[
+		{"title":"Galaxy S10+","imgurl":"img/y_hot1.jpg","descrip":"好礼三选一 享24期免息","price":"¥6999.00","del":"","code":"S10"},
+		{"title":"Galaxy A60","imgurl":"img/y_hot2.jpg","descrip":"桃桃汽汽 新色上市","price":"¥1499.00","del":"","code":"a2"},
+		{"title":"Galaxy S9+ 128GB版本","imgurl":"img/y_hot3.jpg","descrip":"优惠1500元 享6期免息","price":"¥4999.00","del":"¥6499.00","code":"S9"},
+		{"title":"Galaxy A80","imgurl":"img/y_hot2.jpg","descrip":"新品上市 享六重好礼","price":"¥3799.00","del":"","code":"a4"}
+],
+	"recommend_product1":[
+		{"title":"Galaxy S10 512GB版本","imgurl":"img/y_rephone1.jpg","descrip":"优惠1200元 享24期免息","price":"¥7699.00","del":"","code":"b1"},
+		{"title":"Galaxy Note9","imgurl":"img/y_rephone2.jpg","descrip":"至高优惠2000元 6期免息","price":"¥4999.00","del":"¥6999.00","code":"b2"},
+		{"title":"Galaxy A6s","imgurl":"img/y_rephone3.jpg","descrip":"至高优惠800元 享3期分期","price":"¥1099.00","del":"¥1799.00","code":"b3"},
+		{"title":"Galaxy A40s","imgurl":"img/y_rephone4.jpg","descrip":"新品上市 享3期免息","price":"¥1499.00","del":"","code":"b4"}
+	],
+
+	"recommend_product2":[
+		{"title":"Samsung Galaxy Buds","imgurl":"img/y_rewear1.jpg","descrip":"","price":"¥999.00","del":"","code":"c1"},
+		{"title":"Galaxy Watch Active","imgurl":"img/y_rewear2.jpg","descrip":"享6期免息","price":"¥1599.00","del":"","code":"c2"},
+		{"title":"Samsung Galaxy Watch LTE版 46mm钛泽银","imgurl":"img/y_rewear3.jpg","descrip":"","price":"¥2499.00","del":"","code":"c3"},
+		{"title":"Samsung Galaxy Watch 蓝牙版42mm","imgurl":"img/y_rewear4.jpg","descrip":"","price":"¥2099.00","del":"","code":"c4"}
+	],
+
+	"recommend_product3":[
+		{"title":"Galaxy Tab S5e 4G","imgurl":"img/y_recomp1.jpg","descrip":"","price":"¥3599.00","del":"","code":"d1"},
+		{"title":"Galaxy Tab A(2019 10.1英寸)","imgurl":"img/y_recomp2.jpg","descrip":"","price":"¥1699.00","del":"","code":"d2"},
+		{"title":"Galaxy Tab S4 4G","imgurl":"img/y_recomp3.jpg","descrip":"","price":"¥5888.00","del":"","code":"d3"},
+		{"title":"Galaxy Tab E","imgurl":"img/y_recomp4.jpg","descrip":"","price":"¥699.00","del":"¥1199.00","code":"d4"}
+	],
+	"recommend_product4":[
+		{"title":"三星星曜 750XBE-X02","imgurl":"img/y_notebook1.jpg","descrip":"","price":"¥8499.00","del":"","code":"e1"},
+		{"title":"三星星曜 750XBE-X03","imgurl":"img/y_notebook2.jpg","descrip":"","price":"¥9999.00","del":"","code":"e2"},
+		{"title":"三星星曜Pen 930MBE-K01","imgurl":"img/y_notebook3.jpg","descrip":"","price":"¥7999.00","del":"","code":"e3"},
+		{"title":"三星星曜Pen Pro930SBE-K01","imgurl":"img/y_notebook4.jpg","descrip":"","price":"¥9699.00","del":"¥9999.00","code":"e4"}
+	]
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+

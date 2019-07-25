@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+/*CSS reset*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{
+	margin:0;
+	padding:0;
+}
+i{
+	font-style:normal;
+}
+body{
+	font:12px "宋体","Arial Narrow",HELVETICA;
+	color:#7b7b7b;
+}
+a{
+	color:#a4a4a4;
+	text-decoration:none;
+}
+a:hover{
+	color:#cd0200;
+	text-decoration:none;
+}
+textarea,input,button{
+	outline:none;
+	border:0;
+}
+
+h1,h2,h3,h4,h5,h6,b,strong{
+	margin:0;
+	padding:0;
+	font-size:26px;
+	font-weight:800;
+}
+
+em{
+	font-style:normal;
+}
+ul,ol,li{
+	list-style:none;
+}
+img{
+	border:0;
+	vertical-align:middle;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+/*p{
+	word-wrap:break-word;
+}*/
+

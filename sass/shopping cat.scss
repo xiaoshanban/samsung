@@ -1,0 +1,529 @@
+body{
+    .s_shop_wrap{
+        /* s_shopcar go*/
+   .s_shopcar{
+       height: 70px;
+       .s_shopcar_cen{
+        width: 1280px;
+        height: 70px;
+        background: #fff;
+        margin:0 auto;
+        border-bottom: 1px solid #dfdfdf;
+        .s_shop_p{
+            width:1220px;
+            height: 44px;
+            margin-top:20px;
+            .s_shop_img{
+             vertical-align:middle;
+         }
+         .s_span{
+            display: inline-block;
+            line-height: 44px;
+            font-weight:999;
+            color:rgb(22, 20, 20);
+            font-size:16px;
+            margin-left:10px;
+         }
+         .s_shop_a{
+             text-align: center;
+             display: inline-block;
+             width:130px;
+             height:40px;
+             border: 1px solid #000;
+             border-radius: 30px;
+             font-size:12px;
+             font-weight: 900;
+             line-height: 40px;
+             margin-left:10px;
+         }
+        }
+        
+    }
+
+   } 
+        /* s_shopcar End*/
+
+        /* s_float go*/
+    
+        /* s_float End*/
+
+        
+        /* s_float-title-box End*/ 
+
+        /*s_shop_title go*/ 
+  .s_shop_title{
+   height:50px;
+   .s_shop_cen{
+   width:1220px;
+   height:50px;
+   margin: 0 auto;
+   background: #F2F2F2;
+   margin-top:5px;
+   position: relative;
+   .s_kaun{
+       width:20px;
+       height: 20px;
+       background: #fff;
+       border: 1px solid #CCCCCC;
+       border-radius: 10%;
+       line-height: 20px;
+       position: absolute;
+       top:14px;
+       left:25px;
+       #icon1{
+           font-size:25px;
+           margin-left: -3px;
+           line-height: 20px;
+           background-color:blue;
+
+       }
+
+   }
+   .s_span_quanxuan{
+    position: absolute;
+    top:15px;
+    left:67px;
+}
+.s_shopgoods{
+    float: left;
+    width:256px;
+    height:50px;
+    box-sizing:border-box;
+    margin-top:2px;
+    margin-left:256px;
+    line-height:50px;
+}
+.s_goodsprice{
+    float: left;
+    width:153px;
+    height:50px;
+    box-sizing:border-box;
+    margin-top:2px;
+    line-height:50px;
+}
+
+.s_shopcart-jifen{
+    float: left;
+    width:204px;
+    height:50px;
+    box-sizing:border-box;
+    margin-top:2px;
+    line-height:50px;
+    text-align: center;
+    .s_shopcart{
+        width:12px;
+        height:12px;
+        margin-top: 2px;
+    }
+}
+
+.s_count{
+    float: left;
+    width:235px;
+    height:50px;
+    text-align: center;
+    box-sizing:border-box;
+    margin-top:2px;
+    line-height:50px;
+}
+
+.s_sum{
+    float: left;
+    width:114px;
+    height:50px;
+    box-sizing:border-box;
+    margin-top:2px;
+    line-height:50px;
+    .s_right_p{
+        float: right;
+    }
+
+}
+
+   }
+        /*s_shop_title End*/ 
+
+  }
+ /*s_shop_title End*/ 
+
+/*s_shopcart-list go*/
+ .s_shopcart-list{
+     min-height:141px;
+     .s_shopcart-list_cen{
+         width: 1220px;
+         height:141px;
+         margin: 0 auto;
+         background: #fff;
+         position: relative;
+         overflow: hidden;
+         border-bottom:1px solid #f1f1f1;
+        padding-left:65px;
+        padding-top: 20px;
+        box-sizing: border-box;
+
+    
+
+         .s_kaun_2{
+            width:20px;
+            height: 20px;
+            background: #fff;
+            border: 1px solid #CCCCCC;
+            border-radius: 10%;
+            line-height: 20px;
+            position: absolute;
+            top:60px;
+            left:25px;
+            #icon2{
+                font-size:28px;
+                margin-left: -3px;
+                line-height: 20px;
+                background-color:blue;
+            }
+           
+            }
+            .s_goods_a{
+                float: left;
+                width:102px;
+                height:102px;
+                border: 1px solid #F2F2F2;
+                text-align: center;
+         overflow: hidden;
+
+
+                .s_goods_img{
+                    width:90px;
+                    height:100px;
+                }
+
+
+        }
+        .s_div_shena{
+            width:129px;
+            height:81px;
+            float: left;
+            .s_shena{
+                font-size:14px;
+                color:#333;
+                line-height: 17px;
+                padding-left:5px;
+                .s_pshen{
+                    width:256px;
+                    height:33px;
+                    margin-left:5px;
+             box-sizing: border-box;
+                }
+            }
+
+        }
+
+        
+        .shopcart-unit-price{
+            float:left;
+            width:154px;
+            height:40px;
+            font-size:14px;
+            margin-left:193px;
+            margin-top:21px;
+            box-sizing: border-box;
+            .s_red_p{
+                color:red;
+                font-size:14px;
+                font-family: 'Fangzheng Lanting','微软雅黑','Simsun','宋体',arial!important
+            }
+        }
+        .s_shopcart-jifen{
+            float: left;
+            margin-left:20px;
+            margin-top: 21px;
+            box-sizing: border-box;
+        }
+        .s_shopcart-qty{
+            float: left;
+            width:235px;
+            height:49px;
+            margin-left:249px;
+            margin-top:21px;
+            box-sizing: border-box;
+            .s_qty-btn{
+            text-align: center;
+            display: block;
+            float: left;
+                width: 22px;
+                height: 22px;
+                border: 1px solid rgb(145, 141, 141);
+               
+            }
+            .s_qty-btn_count{
+                
+                width: 32px;
+                height: 22px;
+            display: block;
+            float: left;
+                text-align: center;
+                border-top: 1px solid rgb(145, 141, 141);
+                border-bottom: 1px solid rgb(145, 141, 141);
+
+            }
+            .s_qty-btn_jia{
+                text-align: center;
+                width: 22px;
+                height: 22px;
+            display: block;
+            float: left;
+                border: 1px solid rgb(145, 141, 141);
+            }
+        }
+
+    
+        .s_shopcart-sum{
+                float: right;
+                margin-top:-46px;
+            .s_xiao_p{
+                    color:#363d4c;
+                    font-weight: normal;
+            }
+
+
+        }
+     }
+
+
+ }
+/*s_shopcart-list End*/
+
+/* s_shopcost-sum-box go*/
+.s_shopcost-sum-box{
+    height:106px;
+    .s_shopcost-sum-box_cen{
+        width:1220px;
+        height:106px;
+        margin-top: 29px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        .iconfont{
+         font-size:37px;
+        }
+        .s_left{
+            float: left;
+        }
+        .s_float-right{
+            float: right;
+            box-sizing: border-box;
+            margin-top:22px;
+            .s_top{
+               .s_money1{
+                   color: blue;
+                   font-size:24px;
+                   line-height:24px;
+                   font-weight: bold;
+
+               }
+            }
+            .s_bottom{
+                .s_money2{
+                    color: blue;
+                    font-size:24px;
+                    line-height:24px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+    }
+
+}
+/* s_shopcost-sum-box End*/
+
+/*s_shopcart-pay go*/
+
+.s_shopcart-pay{
+    height:50px;
+    .s_shopcart-pay_cen{
+        width: 1220px;
+        height:50px;
+        margin:0 auto;
+        background-color:#f2f2f2;
+    }
+    .s_shena{
+        .iconfont{
+            font-size: 30px;
+            color:blue;
+            margin-top:10px;
+            line-height:50px;
+        }
+        .s_shenbom{
+            line-height:50px;
+            margin-top:5px;
+        }
+    }
+    .s_a_right{
+        text-align: center;
+        float: right;
+        width:270px;
+        height:50px;
+        background: #1428A0;
+        color:white;
+        line-height:50px;
+
+    }
+}
+/*s_shopcart-pay End*/
+
+/*s_new-recommend-title go*/
+.s_new-recommend-title{
+    height: 85px;
+   .s_new-recommend-title_cen{
+       width: 1220px;
+       height:85px;
+       margin: 0 auto;
+       margin-top: 37px;
+       font-size:32px;
+       line-height:86px;
+       text-align: center;
+       color: #333;
+       font-family: 'Fangzheng Lanting','微软雅黑','Simsun','宋体',arial!important;
+   } 
+}
+/*s_new-recommend-title End*/
+
+
+
+/*s_new-recommend-list go*/
+.s_new-recommend-list{
+    height:792px;
+      text-align: center;
+    .s_new-recommend-list-cen{
+        width:1220px;
+        height:792px;
+        margin: 0 auto;
+        text-align: center;
+        box-sizing: border-box;
+        padding-bottom:60px;
+        .s_col_goods{
+            float: left;
+        text-align: center;
+            width:240px;
+            height: 397px;
+            .s_col_img{
+                width:220px;
+                height: 220px;
+            }
+            h2{
+                font-size:14px;
+                font-weight:normal;
+                margin-top:10px;
+
+            }
+            p{
+                margin-top:30px;
+            }
+
+        }
+        .a_shoppcart{
+            display: inline-block;
+            width:180px;
+            height:30px;
+            line-height:30px;
+            color:white;
+            background: #1428A0;
+        }
+
+    }
+
+}
+/*s_new-recommend-list End*/
+
+/* s_section go*/ 
+.s_section{
+    height:104px;
+    .s_section_cen{
+        width: 1220px;
+        height: 104px;
+        margin: 0 auto;
+        // overflow: hidden;
+        border-top:1px solid #e5e5e5;
+        .s_payment-list{
+        width:736px;
+        height: 103px;
+        text-align: center;
+        margin:22px 0 25px;
+        float: left;
+        box-sizing: border-box;
+        ul{
+            text-align: center;
+
+            li{
+                width:99px;
+                height:39px;
+                display:inline-block;
+            text-align: center;
+                border: 1px solid #dcdcdc;
+                border-radius:3px;
+         
+
+                img{
+                    width:97px;
+                    height:37px;
+                    vertical-align:middle;
+                }
+            }
+            .s_isHide{
+                width:99px;
+                height:39px;
+                display:inline-block;
+            text-align: center;
+                border: 1px solid #dcdcdc;
+                border-radius:3px;
+                margin-left:20px;
+                margin-top:20px;
+                img{
+                    width:97px;
+                    height:37px;
+                    vertical-align:middle;
+                }
+            }
+        }
+        }
+        .s_payment-list_right{
+            width: 483px;
+            height:102px;
+          text-align: center;
+          float:right;
+            border-left:1px solid #dcdcdc;
+            .s_bom{
+                margin-top:20px;
+            }
+            ul{
+                
+                .s_ul_img{
+                    width:99px;
+                    height:39px;
+                    display:inline-block;
+                    border: 1px solid #dcdcdc;
+                    border-radius:3px;
+                   vertical-align: middle;
+                   margin-top:15px;
+                    img{
+                        width:97px;
+                        height:37px;
+                        vertical-align:middle;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+/* s_section End*/ 
+
+
+
+
+
+
+
+
+
+  }
+}

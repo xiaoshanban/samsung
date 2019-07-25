@@ -6,11 +6,6 @@ require.config({
     }
 });
 require(['jquery'], function ($) {
-    // 跳转商城页面
-    var shopping_link = document.querySelector(".shopping_link")
-    shopping_link.click = function(){
-        window.open("../samsungshop","_blank")
-    }
     //顶部按钮下方Div
     $('<div></div>').appendTo('.nav ul li a').css({
         'display': 'block', 'width': '0', 'height': '5px', 'background': '#162d9a', 'position': 'absolute',
@@ -68,15 +63,6 @@ require(['jquery'], function ($) {
     $(".eve_nav a:eq(2)").click(function () {
         $(".eve_swiper").animate({ 'left': -3796 }, 400)
     })
-    //活动上拉
-    $('body').scroll(function () {
-        if ($(this).scrollTop() > 200) {
-            $('#product').animate({ 'margin-bottom': 0 }, 500);
-        } else if ($(this).scrollTop() < 200){
-            $('#product').animate('margin-bottom','140px');
-        }
-        console.log($('#product').css("margin-bottom"))
-    });
     //请求数据
     $.ajax({
         type: 'get',

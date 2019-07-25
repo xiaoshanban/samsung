@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        .code {
+            font-family: Arial;
+            font-style: italic;
+            color: rgb(14, 12, 12);
+            border: 0;
+            padding: 2px 3px;
+            letter-spacing: 3px;
+            font-weight: bolder;
+            position: absolute;
+            top: 439px;
+            left: 508px;
+            width: 276px;
+            height: 52px;
+            font-size: 35px;
+            background: url(img/register/s_captchaS2.png);
+        }
+
+        .unchanged {
+            border: 0;
+        }
+
+        input.error {
+            border-bottom: 2px solid red;
+        }
+
+        label.error {
+            color: red;
+        }
+
+        .con {
+            position: absolute;
+            top: 540px;
+            left: -215px;
+
+        }
+    #checkCode{
+        position: absolute;
+        top:5px;
+        left:-9px;
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
+</head>
+
+<body>
+    <!-- s_wrapper go -->
+    <div class="s_wrapper">
+        <!-- s_iam-main-inner go -->
+        <div class="s_iam-main-inner">
+            <i class="iconfont" id="s_iam_con">&#xe634;</i>
+            <h2>三星账户</h2>
+            <!-- form go -->
+            <form action="#">
+                <h1 class="con"></h1>
+                <label class="s_text1">电子邮件或手机号码</label>
+                <br>
+                <input type="text" class="tel" name="phone" required="true" digits="true" rangelength="7,14">
+                <br>
+                <label class="s_text2">密码</label>
+                <br>
+                <input type="password" class="pass" name="pass" required="true" rangelength="6,12">
+                <br>
+                <p class="s_pid">
+                    <input type="button" class="but1" checked="checked" name="button">
+                    <i class="iconfont" id="s_icon">&#xe614;</i>
+                    <em class="s_em">记住我的ID</em>
+                </p>
+
+                <div class="s_challenge_img">
+              <input type="text" readonly="readonly" id="checkCode" class="unchanged" />
+                    <img class='s_capimg2' src="img/register/s_ico_reload.png">
+                </div>
+
+                <br>
+
+                <label class="s_text3">安全代码</label>
+                <br>
+                <input type="password" class="yanzhengma" name="pass">
+
+                <img class="s_layout" src="img/register/s_912x547b .jpg">
+
+                <div class="s_button">
+                    <input class="s_btn" type="submit" value="登录">
+                </div>
+
+                <div class="s_zzp">
+                    <a href="#" id="s_shena">查找 ID 或重置密码？</a>
+                    <p>
+                        或
+                        <a href="zhuce.html" id="s_shena1"> 点击注册</a>
+                    </p>
+                </div>
+
+                <div class="s_sign">
+                    <button class="s_iam_button">
+                        <em class='iconfont'>&#xe667;</em>
+                        <span>用微信登入</span>
+                    </button>
+                </div>
+
+
+            </form>
+            <!-- form End -->
+        </div>
+        <!-- s_iam-main-inner End -->
+    </div>
+    <!-- s_wrapper End -->
+    <script src="js/require.js" data-main="js/register.js"></script>
+
+    <script type="text/javascript">  
+        function createCode() {
+            var code = "";
+            var codeLength = 8;
+            var checkCode = document.getElementById("checkCode");
+            var selectChar = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+                'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
+            for (var i = 0; i < codeLength; i++) {
+                var charIndex = Math.floor(Math.random() * 36);
+                code += selectChar[charIndex];
+            }
+            if (checkCode) {
+                checkCode.className = "code";
+                checkCode.value = code;
+            }
+        }
+
+        function validate() {
+            var inputCode = document.getElementById("input1").value;
+            if (inputCode.length <= 0) {
+                alert("请输入验证码！");
+            }
+            else if (inputCode != code) {
+                alert("验证码输入错误！");
+                createCode();//刷新验证码   
+            }
+            else {
+                alert("验证码正确");
+            }
+        }
+
+        window.onload = function () {
+            createCode();
+            var checkCode = document.getElementById("checkCode");
+            var bt = document.getElementById("bt");
+            checkCode.onclick = function () {
+                createCode();
+            }
+
+        }
+    </script>
+
+    <script>
+        var s_capimg2 = document.getElementsByClassName('s_capimg2')[0];
+        s_capimg2.onclick = function () {
+            createCode();
+        }
+    </script>
+
+    <script src="js/jquery-1.8.3.js"></script>
+   
+    <!-- <script src="js/jquery.validate.js"></script> -->
+    <!-- <script src="js/jquery.validate.messages_zh.js"></script> -->
+    <script>
+        $('form').submit(function () {
+            return false;//1.阻止默认事件;2.阻止事件传播
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
