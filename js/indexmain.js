@@ -9,7 +9,7 @@ require(['jquery'], function ($) {
     // 跳转商城页面
     var shopping_link = document.querySelector(".shopping_link")
     shopping_link.click = function(){
-        window.open("../samsungshop","_blank")
+        window.open("../samsungshop.html","_blank")
     }
     //顶部按钮下方Div
     $('<div></div>').appendTo('.nav ul li a').css({
@@ -75,7 +75,7 @@ require(['jquery'], function ($) {
         } else if ($(this).scrollTop() < 200){
             $('#product').animate('margin-bottom','140px');
         }
-        console.log($('#product').css("margin-bottom"))
+        // console.log($('#product').css("margin-bottom"))
     });
     //请求数据
     $.ajax({
@@ -85,12 +85,12 @@ require(['jquery'], function ($) {
         cache: false, //不使用缓存
         success: function (data) {
            //请求图片
-            console.log(data.bannerPic[0].imgurl)
+            // console.log(data.bannerPic[0].imgurl)
             $('#eve_banner').css({ 'background': 'url(' + data.bannerPic[0].imgurl + ')no-repeat center', 'background-size': 'cover' });
             $('#rec_banner').css({ 'background': 'url(' + data.bannerPic[1].imgurl + ')no-repeat center', 'background-size': 'cover' });
             $('#eve_pro_banner').css({ 'background': 'url(' + data.bannerPic[2].imgurl + ')no-repeat center', 'background-size': 'cover' });
             //请求活动板块文字
-            console.log(data.evetag[0].na)
+            // console.log(data.evetag[0].na)
         $('#eve .eve_event .eve_b_right ul li:eq(0) p').html("&nbsp;"+data.evetag[0].na);
             $('#eve .eve_event .eve_b_right ul li:eq(0) span').html(data.evetag[0].slogan);
         $('#eve .eve_event .eve_b_right ul li:eq(1) p').html("&nbsp;"+data.evetag[1].na);
