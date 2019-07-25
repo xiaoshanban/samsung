@@ -85,10 +85,11 @@ var mySwiper3 = new Swiper ('.swp3', {
           $(document).on('mousemove.drag', function(e){ 
             el.offset({top: e.pageY-dy, left: e.pageX-dx}); 
         });
-    });
-    $(document).on("mouseup",".y_consultation_inner",function(e){
-     
-        $(document).off('mousemove.drag'); 
+        $(document).on("mouseup",".y_consultation_inner",function(e){
+         
+            $(document).off('mousemove.drag'); 
+        });
+        return false;
     });
   
  

@@ -10,7 +10,7 @@
 		}
 
 		.s_shopcar_cen {
-			width: 1280px;
+			width: 1260px;
 			height: 70px;
 			background: #fff;
 			margin: 0 auto;
@@ -136,10 +136,9 @@
 	</style>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="css/common.css" />
-	<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="css/iconfont/iconfont2.css" />
 	<link rel="stylesheet" type="text/css" href="css/home.css" />
 	<link rel="stylesheet" type="text/css" href="css/shopping.css">
-	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 	<link rel="stylesheet" type="text/css" href="css/public.css">
 </head>
 <body>
@@ -198,7 +197,7 @@
 					<span id="add_cart">加入购物车</span>
 				</div>
 				<div class="phone_list_all">
-					<a href="mate20_details.html">
+					<a href="details.html">
 						<img src="images/nov.png" />
 						<span>Galaxy S10</span>
 						<span>新品上市 享六重好礼</span>
@@ -207,7 +206,7 @@
 					<span id="add_cart">加入购物车</span>
 				</div>
 				<div class="phone_list_all">
-					<a href="mate20_details.html">
+					<a href="details.html">
 						<img src="img/s_Galaxy.jpg" />
 						<span>Galaxy S10</span>
 						<span>新品上市 享六重好礼 </span>
@@ -216,7 +215,7 @@
 					<span id="add_cart">加入购物车</span>
 				</div>
 				<div class="phone_list_all">
-					<a href="mate20_details.html">
+					<a href="details.html">
 						<img src="img/s_Galaxy.jpg" />
 						<span>Galaxy S10+</span>
 						<span>新品上市 享六重好礼</span>
@@ -225,7 +224,7 @@
 					<span id="add_cart">加入购物车</span>
 				</div>
 				<div class="phone_list_all">
-					<a href="mate20_details.html">
+					<a href="details.html">
 						<img src="img/s_Galaxy.jpg" />
 						<span>Galaxy S10+</span>
 						<span>新品上市 享六重好礼</span>
@@ -343,17 +342,17 @@
 	<div class="fixed_menu">
 		<!--<div class="menu_list">-->
 		<a id="cart_href">
-			<span class="iconfont icon-xiazai49"></span>
+			<span class="iconfont" style="font-size:35px;">&#xe656;</span>
 			<span id="num">0</span>
 			<i class="cart">购物车</i>
 		</a>
 		<a href="#">
-			<span class="iconfont icon-wodekefu"></span>
+			<span class="iconfont icon-wodekefu" style="font-size:35px;">&#xe644;</span>
 			<i class="service">在线客服</i>
 		</a>
 		<a href="#">
-			<span class="iconfont icon-yijianfankui"></span>
-			<i class="advice">意见反馈</i>
+			<span class="iconfont icon-yijianfankui" style="font-size:35px">&#xe691;</span>
+			<i class="advice">返回顶部</i>
 		</a>
 		<a href="#">
 			<span class="iconfont icon-fanhuidingbu"></span>
@@ -475,7 +474,7 @@
 					for (var i = 0; i < res.length; i++) {
 						str += `
 						 		<div class="phone_list_all">
-									<a href="mate20_details.html">
+									<a href="details.html">
 										<input type = "hidden" value="${res[i].bid}" class="goodBid"></input>
 										<img src="${res[i].src}"/>
 										<span>${res[i].phoneName}</span>

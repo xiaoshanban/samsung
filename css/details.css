@@ -14,6 +14,7 @@ html {
   height: 0;
   overflow: hidden;
   pointer-events: none;
+
 }
 
 .z_large img {
@@ -105,11 +106,17 @@ html {
 
 .z_product_wrap .z_product .z_grid_left .z_little ul {
   position: absolute;
+  width: 100%;
   top: 0px;
+}
+.z_product_wrap .z_product .z_grid_left .z_little ul li{
+  height: 423px;
+  width: 100%;
 }
 
 .z_product_wrap .z_product .z_grid_left .z_little ul img {
-  width: 425px;
+  height: 423px;
+
 }
 
 .z_product_wrap .z_product .z_grid_left .z_little .z_masking {

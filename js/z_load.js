@@ -16,7 +16,7 @@ define(['jquery'],function($){
        $('.z_masking').css({'display':'block','cursor':'crosshair',width:188,height:188});
        $('.z_bigImg').width(900);
        $('.z_large').animate({
-            left:600,
+            left:630,
             top:190,
             opacity:1,
             width:400,
@@ -174,7 +174,7 @@ define(['jquery'],function($){
     $('.z_little_imglist2').on('click','li',function(){
         var index = $(this).index();
         falg2 = index;
-        $('.z_little_imglist1').css('top',-425*index);
+        $('.z_little_imglist1').css('top',-423*index);
         $(this).siblings().css('border-color', '#fff');
         $(this).css('border-color', '#1428a0');
         $('.z_bigImg').attr('src','img/z_'+num+'max'+index+'_'+falg+'.jpg');

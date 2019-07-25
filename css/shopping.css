@@ -151,7 +151,7 @@ body {
       position: relative; }
       .y_banner .y_banner_contain .swp1 img {
         width: 100%;
-        height: auto; }
+        height: 427px; }
       .y_banner .y_banner_contain .swp1 .swiper-pagination {
         position: absolute;
         bottom: 12px; }
@@ -279,11 +279,14 @@ body {
       border-right: 8px solid #f5f5f5;
       text-align: center;
       width: 24.5%;
-      padding: 20px 0px; }
+      padding: 20px 0px;
+      cursor: pointer; }
       .y_hot_wrap .y_hot .y_hp_list a {
-        display: block; }
+        display: block; 
+      }
         .y_hot_wrap .y_hot .y_hp_list a img {
-          width: 100%; }
+          width: 100%;
+          }
       .y_hot_wrap .y_hot .y_hp_list h3 {
         font-size: 18px;
         color: #333;
