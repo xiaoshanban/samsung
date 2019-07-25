@@ -1,0 +1,23 @@
+{
+    "S10":{
+        "back":"#000",
+        "series":"Galaxy S10",
+        "code":"10",
+        "type":"Galaxy S10+",
+        "memory":[{"ram":"8GB RAM","rom":" 128GB ROM","price":"￥6999.00"},{"ram":"8GB RAM","rom":" 512GB ROM","price":"￥8699.00"},{"ram":"8GB RAM","rom":" 1TB ROM","price":"￥10999.00"}],
+        "edition":["公开版","4G+版"],
+        "color":[{"type":"炭晶黑","rgb":"#0d0d0d"},{"type":"皓玉白","rgb":"#b9d5de"},{"type":"琉璃绿","rgb":"#277c7d"},{"type":"烟波蓝","rgb":"#406b91"},{"type":"陶瓷黑","rgb":"#1d1b19"},{"type":"陶瓷白","rgb":"#e7e6e3"}]
+
+    },
+    "S9":{
+        "back":"#f7f8fd",
+        "series":"Galaxy S9",
+        "code":"9",
+        "type":"Galaxy S9+ 128GB版本",
+        "memory":[{"ram":"6GB RAM","rom":" 128GB ROM","price":"￥4999.00"}],
+        "edition":["公开版"],
+        "color":[{"type":"勃艮第红","rgb":"#66343f"},{"type":"冰蓝","rgb":"#5e869f"},{"type":"谜夜黑","rgb":"#000000"},{"type":"夕雾紫","rgb":"#9e44b4"}]
+
+
+    }
+}
